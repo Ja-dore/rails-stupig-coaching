@@ -1,0 +1,32 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ body {
+   background: white;
+ }
+
+ .banner {
+   background: red;
+   h1 {
+     font-size: 60px;
+   }
+ }
+
+  a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+ div{
+  padding: 0px 30px;
+  margin-bottom: 30px;
+  border-left: 5px solid darkgray;
+ }
+
+ #coachanswer{
+   background-color: #F8FDFF;
+ }
